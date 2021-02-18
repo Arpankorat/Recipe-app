@@ -1,0 +1,29 @@
+.App {
+ min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.search-form{
+ min-height: 10vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.submit-button{
+ background-color: lightblue;
+}
+.wrapper{
+ display: grid;
+ justify-content: space-between;
+ grid-template-columns: 1fr 1fr
+}
+
+.items{
+ align-items: center;
+ padding: 20px;
+}
+
+/*.title{*/
+/* background-color: aqua;*/
+/* padding: 10px;*/
+/*}*/

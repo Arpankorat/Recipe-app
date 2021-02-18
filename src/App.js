@@ -14,9 +14,6 @@ function App() {
         getRecipe();
     },[query])
 
-    // const Req =
-    //     `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`
-
     const getRecipe = async () => {
         const res = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
         const data = await res.json();
